@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2 align="center">Feedback Form for Decathlon Website</h2>
+    <h4>Form filled by Krishna, Soham, Prasad, Suraj,...etc</h4>
+    <p>The below form aims to get feedback from the customer about the Decathlon Website for scopes and improvement of the website. 
+        <br>Please read the instructions carefully and fill the genuan feedbackabout our website. <br>Thank You for being our valuable customer.....!
+    </p>
+    <form action="post">
+        <table>
+            <tr>
+                <td>UserName: </td>
+                <td>
+                    <input type="text" placeholder="Enter your User Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>
+                    <input type="email" placeholder="Enter your email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>City: </td>
+                <td><input type="text" placeholder="Enter your City" required></td>
+            </tr>
+            <tr>
+                <td>PhoneNo: </td>
+                <td><input type="text" placeholder="Enter your Phone No"></td>
+            </tr>
+            <tr>
+                <td>Select Type of Prolem:</td>
+                <td>
+                    <input type="radio" value="down" name="probs">
+                    <label for="down">website is down</label><br>
+                    <input type="radio" value="products" name="probs">
+                    <label for="products">products are not available</label><br>
+                    <input type="radio" value="missing" name="probs">
+                    <label for="missing">missing information about the product</label><br>
+                    <input type="radio" value="Other" name="probs">
+                    <label for="Other">Other <input type="text" placeholder="mention the problem if not available in the list"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>Description of the problem: </td>
+                <td><textarea name="problem" id="" cols="100" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Get notification of problem solved:</td>
+                <td>
+                    <input type="radio" name="yn">
+                    <label for="">Yes</label>
+                    <input type="radio" name="yn">
+                    <label for="">no</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button type="submit">Submit Response</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
